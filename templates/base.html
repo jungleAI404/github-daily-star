@@ -36,7 +36,10 @@
                     <li><a href="{{ base_url }}/{{ lang }}/about.html" class="{{ 'active' if nav_active == 'about' }}">{{ T('nav_about') }}</a></li>
                 </ul>
                 <div class="controls">
-                    <a href="#" id="lang-switcher" class="lang-switcher">{{ T('lang_switcher_text') }}</a>
+                    <!-- 找到另一个语言的代码 -->
+                    {% set other_lang = 'zh' if lang == 'en' else 'en' %}
+                    <!-- 直接生成包含 base_url 的完整链接 -->
+                    <a href="{{ base_url }}{{ alternate_paths[other_lang] }}" id="lang-switcher" class="lang-switcher">{{ T('lang_switcher_text') }}</a>
                     <button id="dark-mode-toggle" class="dark-mode-toggle" aria-label="{{ T('dark_mode_label') }}">🌓</button>
                 </div>
             </nav>
