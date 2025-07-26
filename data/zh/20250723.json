@@ -1,0 +1,123 @@
+[
+  {
+    "repo_name": "FreeDomain",
+    "owner": "DigitalPlatDev",
+    "owner_avatar_url": "https://avatars.githubusercontent.com/u/174568519?s=40&amp;v=4 ",
+    "url": "https://github.com/DigitalPlatDev/FreeDomain ",
+    "description": "FreeDomain 是一个旨在为每个人提供免费域名的开源项目 。它允许用户免费注册和管理域名，包括主流的顶级域名，且无需实名认证，为个人和小型项目部署提供了低成本的选择 。用户可以将域名与 Cloudflare 等主流DNS提供商结合使用 。",
+    "language": "HTML",
+    "stars_increment": 178,
+    "stars_total": 71600,
+    "is_new": false
+  },
+  {
+    "repo_name": "higgs-audio",
+    "owner": "boson-ai",
+    "owner_avatar_url": "https://avatars.githubusercontent.com/u/169558529?s=40&v=4",
+    "url": "https://github.com/boson-ai/higgs-audio",
+    "description": "Higgs Audio V2 是 Boson AI 开源的音频生成模型第二代版本，这是一个在超过1000万小时的多样化音频和文本数据上预训练的大规模音频基础模型 。 它是首个开源的、擅长多说话人、逼真且富有情感的语音生成的大型模型 。 该模型支持零样本语音克隆和实时音频推理，效果出色，被认为能超越一些商业和开源的TTS模型 。",
+    "language": "Python",
+    "stars_increment": 1388,
+    "stars_total": 3500,
+    "is_new": false
+  },
+  {
+    "repo_name": "build-your-own-x",
+    "owner": "codecrafters-io",
+    "owner_avatar_url": "https://avatars.githubusercontent.com/u/115591301?s=40&v=4",
+    "url": "https://github.com/codecrafters-io/build-your-own-x",
+    "description": "Build Your Own X 是一个独特的教育资源，旨在通过从零开始构建简化版本的技术项目来深入理解其工作原理 。 该项目汇集了用不同编程语言构建各种工具、程序、框架和库的优质资源 。 涵盖的领域广泛，包括但不限于构建3D渲染器、增强现实应用、BitTorrent客户端、区块链/加密货币、数据库、搜索引擎等 。 这是一种通过动手实践来掌握编程技能和加深技术理解的有效学习方式 。",
+    "language": "Markdown",
+    "stars_increment": 218,
+    "stars_total": 404000,
+    "is_new": false
+  },
+  {
+    "repo_name": "Qwen3-Coder",
+    "owner": "QwenLM",
+    "owner_avatar_url": "https://avatars.githubusercontent.com/u/167944772?s=40&v=4",
+    "url": "https://github.com/QwenLM/Qwen3-Coder",
+    "description": "Qwen3-Coder 是阿里开源的代码大模型，旨在支持全流程编程与复杂任务 。 该模型具备高度的“智能代理”（Agentic）能力，可以在复杂编程任务中与环境互动，执行多轮决策和工具使用 。 其核心技术亮点包括高达1M的上下文长度，使其能处理大型项目的复杂结构 ，并使用了7.5T Tokens的高质量数据进行训练，其中70%为代码数据 。 它能高效地完成基础任务如写代码、补全代码、修复Bug，也能处理代码测试、查询生成等复杂任务 。",
+    "language": "Python",
+    "stars_increment": 1090,
+    "stars_total": 8000,
+    "is_new": false
+  },
+  {
+    "repo_name": "OpenCut",
+    "owner": "OpenCut-app",
+    "owner_avatar_url": "https://avatars.githubusercontent.com/u/169749047?s=40&v=4",
+    "url": "https://github.com/OpenCut-app/OpenCut",
+    "description": "OpenCut 是一个免费、开源的视频编辑工具，旨在成为剪映国际版CapCut的替代品 。 它支持在Web、桌面和移动设备上运行，提供多轨道视频编辑、实时预览、转场特效和无水印导出等功能 。 项目注重用户隐私，所有视频内容均保存在本地设备 。 其界面设计现代且操作简洁，部分版本甚至高度还原了CapCut的界面，便于用户上手 。",
+    "language": "TypeScript",
+    "stars_increment": 148,
+    "stars_total": 26900,
+    "is_new": false
+  },
+  {
+    "repo_name": "MediaCrawler",
+    "owner": "NanmiCoder",
+    "owner_avatar_url": "https://avatars.githubusercontent.com/u/38996471?s=40&v=4",
+    "url": "https://github.com/NanmiCoder/MediaCrawler",
+    "description": "MediaCrawler 是一个功能强大的开源多平台自媒体数据采集工具，支持小红书、抖音、快手、B站、微博等主流平台 。 它能够抓取视频、图片、评论、点赞、转发、用户资料等多种内容类型 。 项目支持按关键词、帖子ID或创作者进行搜索，并可将数据存储到MySQL、CSV或JSON等格式 。 其亮点包括覆盖平台广泛、支持多种登录方式以及高效的数据抓取能力 。",
+    "language": "Python",
+    "stars_increment": 150,
+    "stars_total": 33800,
+    "is_new": false
+  },
+  {
+    "repo_name": "new-pac",
+    "owner": "Alvin9999",
+    "owner_avatar_url": "https://avatars.githubusercontent.com/u/32314817?s=40&v=4",
+    "url": "https://github.com/Alvin9999/new-pac",
+    "description": "new-pac 是一个提供多种网络代理工具的项目，旨在帮助用户访问互联网 。 项目为 Windows 操作系统（如 XP、Win7、Win8、Win10）提供了包含 Clash、V2Ray、SSR、SS-plugin 等工具的集成包 。 此外，项目还包含适用于 Android 手机的 Shadowsocks VPN 版本，基于 shadowsocks-android 开发，并内置了 Shadowsocks 账号 。 项目还分享了关于网络安全的实用书籍 。",
+    "language": "Python",
+    "stars_increment": 50,
+    "stars_total": 66000,
+    "is_new": false
+  },
+  {
+    "repo_name": "blastoff-llm",
+    "owner": "realtime-ai",
+    "owner_avatar_url": "https://avatars.githubusercontent.com/u/175356798?s=40&v=4",
+    "url": "https://github.com/realtime-ai/blastoff-llm",
+    "description": "BlastOff LLM 是一个专为AI语音助手设计的快速响应系统，旨在实现毫秒级的即时响应体验 。 其核心创新在于采用了“小模型+大模型”的双重架构，首先利用轻量级的小型语言模型（LLM）进行快速响应，同时前缀大型语言模型以提供更深入的处理能力 。 这种方法旨在提供超快速的LLM响应 。",
+    "language": "Python",
+    "stars_increment": 50,
+    "stars_total": 217,
+    "is_new": true
+  },
+  {
+    "repo_name": "cf-ai-TGbot",
+    "owner": "Johnsheng1",
+    "owner_avatar_url": "https://avatars.githubusercontent.com/u/109642407?s=40&v=4",
+    "url": "https://github.com/Johnsheng1/cf-ai-TGbot",
+    "description": "CF-ai-TGbot 是一个利用 Cloudflare AI Gateway 为 Telegram 群组或个人用户提供 AI 服务的机器人项目 。 它支持上下文记忆、多群组/个人同时使用以及毫秒级响应 。 项目功能包括新增的关键词监控、自定义系统提示词、自动隐藏 AI 的思考过程以及一键重置功能 。 该机器人代码由开发者与 AI 协作完成，旨在提供一种便捷的 AI 交互方式。",
+    "language": "JavaScript",
+    "stars_increment": 13,
+    "stars_total": 109,
+    "is_new": true
+  },
+  {
+    "repo_name": "fogsight",
+    "owner": "fogsightai",
+    "owner_avatar_url": "https://avatars.githubusercontent.com/u/181878876?s=40&v=4",
+    "url": "https://github.com/fogsightai/fogsight",
+    "description": "Fogsight 是一个由大型语言模型（LLM）驱动的AI动画生成智能体，旨在将用户的抽象概念或词语转化为高质量、生动的动画作品 。 其核心功能是“概念即影像”，用户只需输入一个主题或关键词，Fogsight即可自动生成一部叙事完整、包含双语旁白和电影级视觉质感的高水平动画 。 该工具特别适用于教育领域，能将物理、数学等抽象知识快速可视化，实现一键生成教学演示动画 。 项目支持本地部署，并以宽松的MIT许可证开源 。",
+    "language": "JavaScript",
+    "stars_increment": 50,
+    "stars_total": 721,
+    "is_new": true
+  },
+  {
+    "repo_name": "DeepCode",
+    "owner": "HKUDS",
+    "owner_avatar_url": "https://avatars.githubusercontent.com/u/160787337?s=40&v=4",
+    "url": "https://github.com/HKUDS/DeepCode",
+    "description": "DeepCode 是一个开源的智能代理编程项目，旨在实现开放的智能体编码，支持将论文转换为代码（Paper2Code）、文本生成网页（Text2Web）以及文本生成后端服务（Text2Backend）等功能 。 该项目致力于通过自动化技术简化软件开发流程。",
+    "language": "Python",
+    "stars_increment": 74,
+    "stars_total": 389,
+    "is_new": true
+  }
+]

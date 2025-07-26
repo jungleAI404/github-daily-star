@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="main">
+    <div class="container">
+        <article class="prose">
+            <h1>{{ T('about_title') }}</h1>
+
+            <p>{{ T('about_intro_p1') }}</p>
+
+            <h2>{{ T('about_philosophy_h2') }}</h2>
+            <p>{{ T('about_philosophy_p1') }}</p>
+            <ul>
+                <li>{{ T('about_philosophy_li1') }}</li>
+                <li>{{ T('about_philosophy_li2') }}</li>
+                <li>{{ T('about_philosophy_li3') }}</li>
+            </ul>
+
+            <h2>{{ T('about_tech_h2') }}</h2>
+            <p>{{ T('about_tech_p1') }}</p>
+            <ul>
+                <li>{{ T('about_tech_li1') }}</li>
+                <li>{{ T('about_tech_li2') }}</li>
+                <li>{{ T('about_tech_li3') }}</li>
+                <li>{{ T('about_tech_li4') }}</li>
+            </ul>
+
+            <h2>{{ T('about_contact_h2') }}</h2>
+            <p>{{ T('about_contact_p1') }}</p>
+            <ul>
+                <li>{{ T('about_contact_li1') }}</li>
+                <li>{{ T('about_contact_li2') }}</li>
+            </ul>
+        </article>
+    </div>
+</div>
+{% endblock %}

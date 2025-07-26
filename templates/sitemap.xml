@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+{% for path, meta in all_urls.items() %}
+  <url>
+    <loc>{{ base_url }}{{ path }}</loc>
+    {% if meta.lastmod %}<lastmod>{{ meta.lastmod.strftime('%Y-%m-%d') }}</lastmod>{% endif %}
+    {% for lang_code, lang_path in meta.alternates.items() %}
+    <xhtml:link rel="alternate" hreflang="{{ lang_code }}" href="{{ base_url }}{{ lang_path }}"/>
+    {% endfor %}
+  </url>
+{% endfor %}
+</urlset>

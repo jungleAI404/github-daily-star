@@ -1,0 +1,70 @@
+# 工作流的名称
+name: Build and Deploy to GitHub Pages
+
+# 控制工作流触发的时机
+on:
+  # 当推送到 main 分支时触发
+  push:
+    branches:
+      - main  # 或者你的默认分支，例如 master
+    # 只有以下路径的文件发生变化时，才会触发工作流
+    paths:
+      - 'data/**/*.json'  # 监听 data 目录及子目录下所有 json 文件的变化
+      - 'translations/**' # 当翻译文件变化时
+      - 'templates/**'    # 当模板文件变化时
+      - 'static/**'       # 当静态资源变化时
+      - 'build.py'        # 当构建脚本本身更新时
+      - '.github/workflows/build-and-deploy.yml' # 当工作流文件更新时
+
+  # 允许你在 GitHub 的 Actions 页面手动触发此工作流
+  workflow_dispatch:
+
+# 一个工作流由一个或多个“任务(job)”组成
+jobs:
+  # 此工作流只包含一个名为 "deploy" 的任务
+  deploy:
+    # 任务运行的虚拟环境
+    runs-on: ubuntu-latest
+    # 为任务授予的权限，这是部署到 Pages 所必需的
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    # 配置部署环境
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    # 任务执行的步骤
+    steps:
+      # 1. 检出你的仓库代码，以便工作流可以访问它
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. 设置 Python 环境
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10' # 你可以指定需要的 Python 版本
+
+      # 3. 安装 requirements.txt 文件中定义的依赖库
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # 4. 运行你的构建脚本，生成网站文件到 'output' 目录
+      - name: Build the static site
+        run: python build.py
+
+      # 5. 将生成的 'output' 文件夹作为构建产物上传
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # 上传整个 'output' 目录
+          path: './output'
+
+      # 6. 将上传的构建产物部署到 GitHub Pages
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

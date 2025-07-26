@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <meta name="description" content="{{ description }}">
+
+    <!-- i18n & SEO -->
+    {% for l_code, l_path in alternate_paths.items() %}
+    <link rel="alternate" hreflang="{{ l_code }}" href="{{ base_url }}{{ l_path }}">
+    {% endfor %}
+    <link rel="canonical" href="{{ base_url }}{{ canonical_path }}">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="{{ title }}">
+    <meta property="og:description" content="{{ description }}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ base_url }}{{ canonical_path }}">
+    <meta property="og:image" content="{{ base_url }}/og-image.png">
+    <meta property="og:locale" content="{{ og_locale }}">
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo"><a href="/{{ lang }}/"><h1>{{ T('site_name') }}</h1></a></div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="/{{ lang }}/" class="{{ 'active' if nav_active == 'home' }}">{{ T('nav_home') }}</a></li>
+                    <li><a href="/{{ lang }}/archive.html" class="{{ 'active' if nav_active == 'archive' }}">{{ T('nav_archive') }}</a></li>
+                    <li><a href="/{{ lang }}/about.html" class="{{ 'active' if nav_active == 'about' }}">{{ T('nav_about') }}</a></li>
+                </ul>
+                <div class="controls">
+                    <a href="#" id="lang-switcher" class="lang-switcher">{{ T('lang_switcher_text') }}</a>
+                    <button id="dark-mode-toggle" class="dark-mode-toggle" aria-label="{{ T('dark_mode_label') }}">🌓</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© {{ current_year }} {{ T('site_name') }}. {{ T('copyright') }}</p>
+            <p><a href="https://github.com/your-username/daily-stars" target="_blank" rel="noopener noreferrer">{{ T('view_source_code') }}</a></p>
+        </div>
+    </footer>
+
+    <script src="/js/main.js"></script>
+
+    {% block extra_js %}{% endblock %}
+</body>
+</html>

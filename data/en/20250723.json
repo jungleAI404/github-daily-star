@@ -1,0 +1,123 @@
+[
+  {
+    "repo_name": "FreeDomain",
+    "owner": "DigitalPlatDev",
+    "owner_avatar_url": "https://avatars.githubusercontent.com/u/174568519?s=40&v=4",
+    "url": "https://github.com/DigitalPlatDev/FreeDomain",
+    "description": "FreeDomain is an open-source initiative aimed at providing free domains to everyone. It allows users to register and manage domains—including popular top-level domains—free of charge and without mandatory identity verification, offering a low-cost solution for individuals and small-scale project deployments. Users can integrate these domains with mainstream DNS providers such as Cloudflare.",
+    "language": "HTML",
+    "stars_increment": 178,
+    "stars_total": 71600,
+    "is_new": false
+  },
+  {
+    "repo_name": "higgs-audio",
+    "owner": "boson-ai",
+    "owner_avatar_url": "https://avatars.githubusercontent.com/u/169558529?s=40&v=4",
+    "url": "https://github.com/boson-ai/higgs-audio",
+    "description": "Higgs Audio V2 is the second-generation open-source audio generation model from Boson AI. It is a large-scale foundational audio model pre-trained on over 10 million hours of diverse audio and text data. This model is the first open-source large model excelling in multi-speaker, realistic, and emotionally expressive speech synthesis. It supports zero-shot voice cloning and real-time audio inference, delivering high-quality results that surpass many commercial and open-source TTS models.",
+    "language": "Python",
+    "stars_increment": 1388,
+    "stars_total": 3500,
+    "is_new": false
+  },
+  {
+    "repo_name": "build-your-own-x",
+    "owner": "codecrafters-io",
+    "owner_avatar_url": "https://avatars.githubusercontent.com/u/115591301?s=40&v=4",
+    "url": "https://github.com/codecrafters-io/build-your-own-x",
+    "description": "Build Your Own X is a unique educational resource designed to deepen understanding of how technologies work by building simplified versions from scratch. The project compiles high-quality guides and implementations for constructing various tools, programs, frameworks, and libraries in different programming languages. Topics span a wide range, including 3D renderers, augmented reality applications, BitTorrent clients, blockchains/cryptocurrencies, databases, search engines, and more. It promotes an effective, hands-on approach to mastering programming skills and gaining deeper technical insight.",
+    "language": "Markdown",
+    "stars_increment": 218,
+    "stars_total": 404000,
+    "is_new": false
+  },
+  {
+    "repo_name": "Qwen3-Coder",
+    "owner": "QwenLM",
+    "owner_avatar_url": "https://avatars.githubusercontent.com/u/167944772?s=40&v=4",
+    "url": "https://github.com/QwenLM/Qwen3-Coder",
+    "description": "Qwen3-Coder is Alibaba's open-source large coding model designed to support full-cycle programming and complex tasks. The model features strong 'agentic' capabilities, enabling it to interact with environments, perform multi-step reasoning, and utilize tools in complex programming workflows. Key technical highlights include a context length of up to 1 million tokens, allowing it to handle large and intricate codebases, and training on 7.5 trillion high-quality tokens, with 70% derived from code data. It efficiently handles basic tasks like code writing, completion, and bug fixing, as well as advanced tasks such as code testing and query generation.",
+    "language": "Python",
+    "stars_increment": 1090,
+    "stars_total": 8000,
+    "is_new": false
+  },
+  {
+    "repo_name": "OpenCut",
+    "owner": "OpenCut-app",
+    "owner_avatar_url": "https://avatars.githubusercontent.com/u/169749047?s=40&v=4",
+    "url": "https://github.com/OpenCut-app/OpenCut",
+    "description": "OpenCut is a free, open-source video editing tool designed as an alternative to CapCut, the international version of Jianying. It supports web, desktop, and mobile platforms, offering multi-track video editing, real-time preview, transition effects, and watermark-free export. The project emphasizes user privacy, storing all video content locally on the user's device. With a modern and intuitive interface, some versions closely replicate CapCut's design for ease of adoption.",
+    "language": "TypeScript",
+    "stars_increment": 148,
+    "stars_total": 26900,
+    "is_new": false
+  },
+  {
+    "repo_name": "MediaCrawler",
+    "owner": "NanmiCoder",
+    "owner_avatar_url": "https://avatars.githubusercontent.com/u/38996471?s=40&v=4",
+    "url": "https://github.com/NanmiCoder/MediaCrawler",
+    "description": "MediaCrawler is a powerful open-source multi-platform media data scraping tool supporting major platforms such as Xiaohongshu (Little Red Book), Douyin (TikTok), Kuaishou, Bilibili, and Weibo. It can extract various content types including videos, images, comments, likes, shares, and user profiles. The project supports searching by keywords, post IDs, or creators, and allows data to be saved in formats such as MySQL, CSV, or JSON. Key features include broad platform coverage, support for multiple login methods, and efficient data collection capabilities.",
+    "language": "Python",
+    "stars_increment": 150,
+    "stars_total": 33800,
+    "is_new": false
+  },
+  {
+    "repo_name": "new-pac",
+    "owner": "Alvin9999",
+    "owner_avatar_url": "https://avatars.githubusercontent.com/u/32314817?s=40&v=4",
+    "url": "https://github.com/Alvin9999/new-pac",
+    "description": "new-pac is a project that provides multiple internet proxy tools, designed to help users access the internet. It offers an integrated package for Windows operating systems (including XP, Win7, Win8, and Win10) featuring tools such as Clash, V2Ray, SSR, and SS-plugin. Additionally, it includes a Shadowsocks VPN version for Android phones, built upon shadowsocks-android and pre-configured with Shadowsocks accounts. The project also shares practical books on network security.",
+    "language": "Python",
+    "stars_increment": 50,
+    "stars_total": 66000,
+    "is_new": false
+  },
+  {
+    "repo_name": "blastoff-llm",
+    "owner": "realtime-ai",
+    "owner_avatar_url": "https://avatars.githubusercontent.com/u/175356798?s=40&v=4",
+    "url": "https://github.com/realtime-ai/blastoff-llm",
+    "description": "BlastOff LLM is a fast-response system designed specifically for AI voice assistants, aiming to deliver millisecond-level instant responses. Its core innovation lies in a 'small-model + large-model' dual architecture: a lightweight small language model (LLM) provides rapid initial responses, while simultaneously priming a larger language model for deeper processing. This approach enables ultra-fast LLM response times.",
+    "language": "Python",
+    "stars_increment": 50,
+    "stars_total": 217,
+    "is_new": true
+  },
+  {
+    "repo_name": "cf-ai-TGbot",
+    "owner": "Johnsheng1",
+    "owner_avatar_url": "https://avatars.githubusercontent.com/u/109642407?s=40&v=4",
+    "url": "https://github.com/Johnsheng1/cf-ai-TGbot",
+    "description": "CF-ai-TGbot is a Telegram bot project that leverages the Cloudflare AI Gateway to provide AI services to Telegram groups or individual users. It supports context memory, concurrent usage across multiple groups or users, and millisecond-level response times. Features include keyword monitoring, custom system prompts, automatic hiding of the AI's internal thought process, and one-click reset functionality. The bot's code was collaboratively developed by the creator and an AI, aiming to deliver a seamless and accessible AI interaction experience.",
+    "language": "JavaScript",
+    "stars_increment": 13,
+    "stars_total": 109,
+    "is_new": true
+  },
+  {
+    "repo_name": "fogsight",
+    "owner": "fogsightai",
+    "owner_avatar_url": "https://avatars.githubusercontent.com/u/181878876?s=40&v=4",
+    "url": "https://github.com/fogsightai/fogsight",
+    "description": "Fogsight is an AI animation generation agent powered by large language models (LLMs), designed to transform users' abstract concepts or keywords into high-quality, vivid animations. Its core capability, 'Concept-to-Visual,' allows users to input a theme or keyword, after which Fogsight automatically generates a narratively complete animation with bilingual voiceovers and cinematic visual quality. The tool is particularly useful in education, enabling rapid visualization of abstract subjects like physics and mathematics through one-click generation of instructional demo animations. The project supports local deployment and is open-sourced under the permissive MIT license.",
+    "language": "JavaScript",
+    "stars_increment": 50,
+    "stars_total": 721,
+    "is_new": true
+  },
+  {
+    "repo_name": "DeepCode",
+    "owner": "HKUDS",
+    "owner_avatar_url": "https://avatars.githubusercontent.com/u/160787337?s=40&v=4",
+    "url": "https://github.com/HKUDS/DeepCode",
+    "description": "DeepCode is an open-source intelligent agent programming project aiming to enable open agent-based coding. It supports functionalities such as converting research papers into code (Paper2Code), generating web pages from text (Text2Web), and creating backend services from textual descriptions (Text2Backend). The project seeks to streamline software development through automation.",
+    "language": "Python",
+    "stars_increment": 74,
+    "stars_total": 389,
+    "is_new": true
+  }
+]

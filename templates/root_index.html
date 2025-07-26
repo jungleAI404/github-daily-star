@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Redirecting...</title>
+    <meta charset="UTF-8">
+    <script type="text/javascript">
+        // This script runs in the user's browser, not on the server.
+        try {
+            const userLang = (navigator.language || navigator.userLanguage || '').toLowerCase();
+
+            // If user's browser language is Chinese (e.g., 'zh', 'zh-CN', 'zh-TW'), redirect to Chinese version.
+            if (userLang.startsWith('zh')) {
+                window.location.replace('/zh/');
+            } else {
+                // For all other languages, redirect to the default English version.
+                window.location.replace('/en/');
+            }
+        } catch (e) {
+            // If something goes wrong, fall back to the default language.
+            window.location.replace('/en/');
+        }
+    </script>
+    <noscript>
+        <meta http-equiv="refresh" content="0; url=/en/">
+    </noscript>
+</head>
+<body>
+    <p>Redirecting to the correct language version...</p>
+</body>
+</html>

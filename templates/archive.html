@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="main">
+    <div class="container">
+        <h1 class="page-title">{{ T('archive_title') }}</h1>
+        <div class="timeline">
+            {% for month_data in monthly_archives.values() %}
+            <div class="timeline-month">
+                <h2 class="month-title">{{ month_data.display }}</h2>
+                <ul class="timeline-list">
+                    {% for day_info in month_data.days %}
+                    <li class="timeline-item">
+                        <a href="/{{ lang }}/archive/{{ day_info.date.strftime('%Y-%m-%d') }}.html" class="timeline-link">
+                            <span class="date">{{ day_info.date.strftime(date_format) }}</span>
+                            <span class="count">{{ day_info.count }} {{ T('total_projects') }}</span>
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endblock %}

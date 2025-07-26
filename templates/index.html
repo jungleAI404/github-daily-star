@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="hero">
+    <div class="container">
+        <h1>{{ T('hero_title') }}</h1>
+        <p>{{ T('hero_subtitle') }}</p>
+        <div class="date-navigator">
+            {% if prev_date %}
+            <a href="/{{ lang }}/archive/{{ prev_date.strftime('%Y-%m-%d') }}.html">‹ {{ T('previous_day') }}</a>
+            {% else %}
+            <a href="#" class="disabled">‹ {{ T('previous_day') }}</a>
+            {% endif %}
+
+            <span class="date-display">{{ date.strftime(date_format) }}</span>
+
+            <a href="#" class="disabled">{{ T('next_day') }} ›</a>
+        </div>
+    </div>
+</section>
+
+<div class="main">
+    <div class="container">
+        <div class="projects-grid">
+            {% for project in projects %}
+                {% include "partials/project_card.html" %}
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endblock %}

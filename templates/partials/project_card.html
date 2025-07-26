@@ -1,0 +1,16 @@
+<article class="project-card">
+    <div class="project-owner">
+        <img src="{{ project.owner_avatar_url }}" alt="{{ project.owner }}'s avatar" class="owner-avatar" loading="lazy" width="24" height="24">
+        <span class="owner-name">{{ project.owner }}</span>
+    </div>
+    <h3 class="project-name"><a href="{{ project.url }}" target="_blank" rel="noopener noreferrer">{{ project.repo_name }}</a></h3>
+    <p class="project-description">{{ project.description }}</p>
+    <div class="project-stats">
+        <span class="star-increment">+{{ project.stars_increment }}</span>
+        <span class="total-stars">⭐ {{ project.stars_total | format_k }}k</span>
+        <span class="language-tag lang-{{ project.language | lower }}">{{ project.language }}</span>
+        {% if project.is_new %}
+        <span class="new-badge">{{ T('new_badge') }}</span>
+        {% endif %}
+    </div>
+</article>
