@@ -28,12 +28,12 @@
 <body>
     <header class="header">
         <div class="container">
-            <div class="logo"><a href="/{{ lang }}/"><h1>{{ T('site_name') }}</h1></a></div>
+            <div class="logo"><a href="{{ base_url }}/{{ lang }}/"><h1>{{ T('site_name') }}</h1></a></div>
             <nav class="nav">
                 <ul>
-                    <li><a href="/{{ lang }}/" class="{{ 'active' if nav_active == 'home' }}">{{ T('nav_home') }}</a></li>
-                    <li><a href="/{{ lang }}/archive.html" class="{{ 'active' if nav_active == 'archive' }}">{{ T('nav_archive') }}</a></li>
-                    <li><a href="/{{ lang }}/about.html" class="{{ 'active' if nav_active == 'about' }}">{{ T('nav_about') }}</a></li>
+                    <li><a href="{{ base_url }}/{{ lang }}/" class="{{ 'active' if nav_active == 'home' }}">{{ T('nav_home') }}</a></li>
+                    <li><a href="{{ base_url }}/{{ lang }}/archive.html" class="{{ 'active' if nav_active == 'archive' }}">{{ T('nav_archive') }}</a></li>
+                    <li><a href="{{ base_url }}/{{ lang }}/about.html" class="{{ 'active' if nav_active == 'about' }}">{{ T('nav_about') }}</a></li>
                 </ul>
                 <div class="controls">
                     <a href="#" id="lang-switcher" class="lang-switcher">{{ T('lang_switcher_text') }}</a>
