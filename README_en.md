@@ -1,13 +1,13 @@
 # 🌟 StarScope
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
-![Deployed on GitHub Pages](https://img.shields.io/badge/Deployed%20on-GitHub%20Pages-89216B.svg)
+[![Deployed on GitHub Pages](https://img.shields.io/badge/Deployed%20on-GitHub%20Pages-89216B.svg)](https://github-stars.xjmunity.com//en/index.html)
 
 **English Name**: StarScope  
 **Chinese Name**: 星探 (Xīng Tàn)
 
 A hand-curated list of trending GitHub projects, updated daily and presented in minimal style.
 
-🌐 **Live Site**: [StarScope](https://github-stars.xjmunity.com/)
+🌐 **Live Site**: [StarScope](https://github-stars.xjmunity.com//en/index.html)
 
 ---
 
@@ -54,18 +54,15 @@ All code, templates, and data are publicly available. Contributions and forks we
 ## 🖼️ Preview Screenshots
 
 **Homepage (Today's Picks)**  
-![Home Page Preview](https://via.placeholder.com/800x400?text=Home+Page+Preview)  
-Highlights trending projects with star growth, programming language, and "New Project" tags.
+![Home Page Preview](https://github.com/jungleAI404/github-stars/blob/main/static/images/en/homepage.png)  
 
 **Archive Page**  
-![Archive Page Preview](https://via.placeholder.com/800x400?text=Archive+Page+Preview)  
-Monthly timeline with clear daily entry counts.
+![Archive Page Preview](https://github.com/jungleAI404/github-stars/blob/main/static/images/en/Archive.png)  
+
 
 **About Page**  
-![About Page Preview](https://via.placeholder.com/800x400?text=About+Page+Preview)  
-Explains the philosophy behind human curation.
+![About Page Preview](https://github.com/jungleAI404/github-stars/blob/main/static/images/en/about.png)  
 
-💡 *Replace placeholder links with actual screenshot URLs before release.*
 
 ---
 
