@@ -1,13 +1,13 @@
 # 🌟 StarScope
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
-[![Deployed on GitHub Pages](https://img.shields.io/badge/Deployed%20on-GitHub%20Pages-89216B.svg)](https://github-stars.xjmunity.com//en/index.html)
+[![Deployed on GitHub Pages](https://img.shields.io/badge/Deployed%20on-GitHub%20Pages-89216B.svg)](https://github-stars.xjmunity.com/en/index.html)
 
 **English Name**: StarScope  
 **Chinese Name**: 星探 (Xīng Tàn)
 
 A hand-curated list of trending GitHub projects, updated daily and presented in minimal style.
 
-🌐 **Live Site**: [StarScope](https://github-stars.xjmunity.com//en/index.html)
+🌐 **Live Site**: [StarScope](https://github-stars.xjmunity.com/en/index.html)
 
 ---
 
@@ -101,7 +101,7 @@ star-scope/
 ## 🌍 How to View in Chinese  
 To view the **Chinese version of this README**, please visit the repository directly on GitHub — this `README.md` is the default and primary file.  
 👉 The Chinese `README.md` will always be the main landing file.  
-🌐 You can also visit the live site: [https://github-stars.xjmunity.com/](https://github-stars.xjmunity.com/) — it supports **auto language detection and switching**.  
+🌐 You can also visit the live site: [https://github-stars.xjmunity.com](https://github-stars.xjmunity.com) — it supports **auto language detection and switching**.  
 
 ---
 ## 🤝 Contributions  

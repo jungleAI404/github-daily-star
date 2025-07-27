@@ -1,15 +1,15 @@
 # 🌟 StarScope / 星探
 🌍 **English users**: View the English version → [README_en.md](README_en.md)  
-👉 This is the main (Chinese) README. The site itself is bilingual: [StarScope](https://github-stars.xjmunity.com//en/index.html)
+👉 This is the main (Chinese) README. The site itself is bilingual: [StarScope](https://github-stars.xjmunity.com/en/index.html)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Deployed on GitHub Pages](https://img.shields.io/badge/Deployed%20on-GitHub%20Pages-89216B.svg)](https://github-stars.xjmunity.com/)
+[![Deployed on GitHub Pages](https://img.shields.io/badge/Deployed%20on-GitHub%20Pages-89216B.svg)](https://github-stars.xjmunity.com)
 
 > **中文名**：星探  
 > **English Name**：StarScope  
 > 一份由开发者**人工精心挑选**的 GitHub 高增长项目推荐列表，每日更新，极简呈现。
 
-🌐 **在线访问**：[星探](https://github-stars.xjmunity.com/)
+🌐 **在线访问**：[星探](https://github-stars.xjmunity.com)
 
 ---
 

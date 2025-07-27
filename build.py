@@ -7,7 +7,7 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 # --- 配置 ---
 LANGUAGES = ['en', 'zh']
 DEFAULT_LANGUAGE = 'en'
-BASE_URL = "https://github-stars.xjmunity.com/"  # 部署后请修改为你的域名
+BASE_URL = "https://github-stars.xjmunity.com"  # 部署后请修改为你的域名
 
 # --- 路径定义 ---
 PATH_DATA = 'data'
