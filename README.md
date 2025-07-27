@@ -1,9 +1,9 @@
 # 🌟 StarScope / 星探
 🌍 **English users**: View the English version → [README_en.md](README_en.md)  
-👉 This is the main (Chinese) README. The site itself is bilingual: [StarScope](https://github-stars.xjmunity.com/)
+👉 This is the main (Chinese) README. The site itself is bilingual: [StarScope](https://github-stars.xjmunity.com//en/index.html)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![GitHub Pages](https://img.shields.io/badge/Deployed%20on-GitHub%20Pages-89216B.svg)](https://jungleAI404.github.io/github-daily-star/)
+[![Deployed on GitHub Pages](https://img.shields.io/badge/Deployed%20on-GitHub%20Pages-89216B.svg)](https://github-stars.xjmunity.com/)
 
 > **中文名**：星探  
 > **English Name**：StarScope  
@@ -44,18 +44,14 @@
 ## 🖼️ 截图预览
 
 ### 首页（今日推荐）
-![首页截图](https://via.placeholder.com/800x400?text=Home+Page+Preview)  
-*展示当日精选项目，突出 star 增长、项目语言与“新项目”标签*
+![首页截图](https://github.com/jungleAI404/github-stars/blob/main/static/images/zh/homepage.png)  
 
 ### 历史归档
-![归档截图](https://via.placeholder.com/800x400?text=Archive+Page+Preview)  
-*按月组织的时间线，清晰展示每日推荐数量*
+![归档截图](https://github.com/jungleAI404/github-stars/blob/main/static/images/zh/Archive.png)  
 
 ### 关于页面
-![关于截图](https://via.placeholder.com/800x400?text=About+Page+Preview)  
-*阐述项目理念与人工筛选的价值*
+![关于截图](https://github.com/jungleAI404/github-stars/blob/main/static/images/zh/about.png)  
 
-> 💡 请将 `https://via.placeholder.com/...` 替换为你实际的截图链接。
 
 ---
 
