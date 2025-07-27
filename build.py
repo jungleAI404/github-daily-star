@@ -1,5 +1,3 @@
-# /build.py (修正版 v4)
-
 import os
 import json
 import shutil
@@ -171,7 +169,7 @@ class SiteBuilder:
             })
             all_urls[about_path] = {'lastmod': latest_date, 'alternates': {l: f'/{l}/about.html' for l in LANGUAGES}}
 
-        # --- 生成收尾文件 (逻辑已修正) ---
+        # --- 生成收尾文件 ---
         # 1. 直接复制根跳转页，而不是渲染它
         print("Generating root index and sitemap...")
         shutil.copyfile(
