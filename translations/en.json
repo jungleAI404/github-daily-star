@@ -1,12 +1,12 @@
 {
-    "site_name": "Daily Stars",
+    "site_name": "StarScope",
     "nav_home": "Home",
     "nav_archive": "Archive",
     "nav_about": "About",
     "lang_switcher_text": "中文",
     "dark_mode_label": "Toggle Dark Mode",
-    "hero_title": "Discover Daily GitHub Stars",
-    "hero_subtitle": "A curated, auto-updating list of the fastest-growing open-source projects on GitHub.",
+    "hero_title": "Discover Trending GitHub Projects",
+    "hero_subtitle": "A curated platform for discovering trending GitHub projects with rapid star growth — helping you stay ahead with the most exciting open-source innovations.",
     "previous_day": "Previous Day",
     "next_day": "Next Day",
     "total_projects": "projects",
@@ -15,7 +15,7 @@
     "new_badge": "NEW",
     "archive_title": "Archive",
 
-    "about_title": "About Daily Stars",
+    "about_title": "About StarScope",
     "about_intro_p1": "Hello! I'm the creator of Daily Stars, a developer passionate about open source and technology. In this era of information overload, I found it challenging to track the truly noteworthy emerging projects on GitHub. Therefore, I created Daily Stars, hoping to help more developers discover valuable new projects.",
     "about_philosophy_h2": "Project Philosophy",
     "about_philosophy_p1": "The core idea behind Daily Stars is \"Data-Driven Minimalism\". We believe in:",
@@ -30,6 +30,6 @@
     "about_tech_li4": "Deployment: Deployed on GitHub Pages via GitHub Actions.",
     "about_contact_h2": "Contact Me",
     "about_contact_p1": "If you have any suggestions or ideas, feel free to reach out to me:",
-    "about_contact_li1": "Email: your-email@example.com",
-    "about_contact_li2": "GitHub: @your-username"
+    "about_contact_li1": "Email: junglehxj@gmail.com",
+    "about_contact_li2": "GitHub: https://github.com/jungleAI404/github-daily-star"
 }

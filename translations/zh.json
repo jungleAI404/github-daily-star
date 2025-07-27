@@ -1,12 +1,12 @@
 {
-    "site_name": "每日之星",
+    "site_name": "星探",
     "nav_home": "首页",
     "nav_archive": "历史归档",
     "nav_about": "关于",
     "lang_switcher_text": "English",
     "dark_mode_label": "切换暗色模式",
-    "hero_title": "发现每日 GitHub 新星",
-    "hero_subtitle": "一份精心策划、自动更新的列表，为您展示 GitHub 上增长最快的开源项目。",
+    "hero_title": "GitHub 热门项目发现",
+    "hero_subtitle": "一个精选的GitHub明星项目发现平台，每日追踪高星趋势项目，助你快速发现前沿开源技术与有趣创意。",
     "previous_day": "前一天",
     "next_day": "后一天",
     "total_projects": "个项目",
@@ -15,7 +15,7 @@
     "new_badge": "新",
     "archive_title": "历史归档",
 
-    "about_title": "关于“每日之星”",
+    "about_title": "关于“星探”",
     "about_intro_p1": "你好！我是“每日之星”的创建者，一名热爱开源和技术的开发者。在这个信息爆炸的时代，我发现很难跟踪 GitHub 上那些真正值得关注的新兴项目。因此，我创建了“每日之星”，希望能帮助更多开发者发现有价值的新项目。",
     "about_philosophy_h2": "项目理念",
     "about_philosophy_p1": "“每日之星”的核心理念是“信息驱动的极简主义”。我们相信：",
@@ -23,13 +23,13 @@
     "about_philosophy_li2": "高信噪比：移除所有不必要的装饰，追求功能性的美学。",
     "about_philosophy_li3": "数据可视化：通过直观的方式展示项目的增长趋势。",
     "about_tech_h2": "技术实现",
-    "about_tech_p1": "“每日之星”是一个完全静态的网站，采用以下技术栈：",
+    "about_tech_p1": "“星探”是一个完全静态的网站，采用以下技术栈：",
     "about_tech_li1": "前端：HTML5, CSS3, JavaScript (原生)",
     "about_tech_li2": "数据获取：通过 GitHub API 自动抓取项目数据。",
     "about_tech_li3": "自动化：使用带有 Jinja2 模板的 Python 脚本每日生成站点。",
     "about_tech_li4": "部署：通过 GitHub Actions 部署到 GitHub Pages。",
     "about_contact_h2": "联系方式",
     "about_contact_p1": "如果你有任何建议或想法，欢迎通过以下方式联系我：",
-    "about_contact_li1": "邮箱：your-email@example.com",
-    "about_contact_li2": "GitHub: @your-username"
+    "about_contact_li1": "邮箱：junglehxj@gmail.com",
+    "about_contact_li2": "GitHub: https://github.com/jungleAI404/github-daily-star"
 }

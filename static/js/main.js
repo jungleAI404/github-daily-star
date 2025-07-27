@@ -1,5 +1,3 @@
-// /js/main.js
-
 document.addEventListener('DOMContentLoaded', function() {
     
     // --- 暗色模式切换 ---
