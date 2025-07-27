@@ -1,4 +1,6 @@
 # 🌟 StarScope / 星探
+🌍 **English users**: View the English version → [README_en.md](README_en.md)  
+👉 This is the main (Chinese) README. The site itself is bilingual: [StarScope](https://github-stars.xjmunity.com/)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![GitHub Pages](https://img.shields.io/badge/Deployed%20on-GitHub%20Pages-89216B.svg)](https://jungleAI404.github.io/github-daily-star/)
@@ -7,7 +9,7 @@
 > **English Name**：StarScope  
 > 一份由开发者**人工精心挑选**的 GitHub 高增长项目推荐列表，每日更新，极简呈现。
 
-🌐 **在线访问**：[https://githubStar.xjmunity.com](https://githubStar.xjmunity.com)
+🌐 **在线访问**：[星探](https://github-stars.xjmunity.com/)
 
 ---
 
@@ -84,3 +86,4 @@ star-scope/
 ├── translations/            # 多语言文案翻译（site_name, nav, etc.）
 ├── output/                  # 构建输出目录（部署内容）
 └── README.md
+└── README_en.md
